@@ -1,0 +1,41 @@
+body {
+    font-size: 1.2em;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background:#3e048afa;
+    opacity: 0.98;
+}
+
+.panel{
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius:10px;
+    padding: 10px;
+    background-color: azure;
+}
+
+button{
+    /* background-color: darkgoldenrod ; */
+    background:#3e048afa;
+    height: 3em;
+    width:80%;
+    margin-bottom: 1.5em;
+    border-radius: 80%;
+    color: whitesmoke;
+    font-size: 0.8em;
+
+}
+input{
+    border-radius: 10px;
+    width:80%;
+    height: 4em;
+    text-align: center;
+}
