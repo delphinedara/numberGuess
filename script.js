@@ -48,7 +48,7 @@ function compareGuess() {
       document.getElementById('textOutput').innerHTML="Your guess is too low";
       document.getElementById('inputBox').value="";
       } else{
-      document.getElementById('textOutput').innerHTML="Correct! You got it in" + attempts + " attempts.";
+      document.getElementById('textOutput').innerHTML="Correct! You got it in " + attempts + " attempts.";
       document.getElementById('container').style.backgroundColor = 'green';
       gameEnded();
      }
@@ -63,7 +63,7 @@ function compareGuess() {
       document.getElementById('container').style.backgroundColor = '#e82c4e';
       gameEnded();
     } else {
-      document.getElementById('textOutput').innerHTML = "Correct! You got it in" + attempts + " attempts.";
+      document.getElementById('textOutput').innerHTML = "Correct! You got it in " + attempts + " attempts.";
       document.getElementById('container').style.backgroundColor = 'green';
       gameEnded();
     }
