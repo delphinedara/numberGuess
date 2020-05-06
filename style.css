@@ -39,3 +39,6 @@ input{
     height: 4em;
     text-align: center;
 }
+.activeButton{
+    background: green;
+}
