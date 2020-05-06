@@ -11,8 +11,12 @@
     <div class="panel">
       <h2>I have a random number<br> between 1 and 100</h2>
       <h3>Dare to guess?</h3> <hr>
-
-      <button onclick="newGame()">NEW GAME</button>
+     
+      <p>Select difficult setting:</p>
+      <button id="easyButton" onclick="easyMode()" class="">Easy: Guess in 10 attempts (default)</button>
+      <button id="hardButton" onclick="hardMode()" class="">Hard: Guess in 5 attempts</button>
+     
+      <button id="newGameButton" onclick="newGame()">NEW GAME</button>
     </div>
     <div class="panel">
       <h3 id="textOutput">Enter your guess below &amp; press enter </h3>
